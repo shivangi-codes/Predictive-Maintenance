@@ -3,7 +3,7 @@
             Predictive maintenance documentation
 
 Problem Statement:
-           	In the digital age, optimizing maintenance schedules is crucial for enhancing production efficiency in industries. Predictive maintenance leverages data to create smarter, more digitized facilities, reducing downtime and increasing productivity. The challenge is to predict machine failures using a dataset of 10,000 observations that include variables such as product type, air temperature, process temperature, rotational speed, torque, tool wear, and various failure modes (machine failure, TWF, HDF, PWF, OSF, RNF). Accurate predictions will enable proactive maintenance strategies, minimizing disruptions and improving operational performance.
+           	In the digital age, optimizing maintenance schedules is crucial for enhancing industry production efficiency. Predictive maintenance leverages data to create smarter, more digitized facilities, reducing downtime and increasing productivity. The challenge is to predict machine failures using a dataset of 10,000 observations that include variables such as product type, air temperature, process temperature, rotational speed, torque, tool wear, and various failure modes (machine failure, TWF, HDF, PWF, OSF, RNF). Accurate predictions will enable proactive maintenance strategies, minimizing disruptions and improving operational performance.
 Steps to follow in the project:
 1.   EDA
 
@@ -16,7 +16,7 @@ f.  	Outliers
 
 
 2.   Data Visualization
-a. 	Pie chart
+a. Pie chart
 B. histogram
 C. scatterplot 
 D. heatmap
@@ -50,11 +50,11 @@ c. Recall (Sensitivity):
 d. F1 Score:
    - The harmonic mean of precision and recall, useful when class distribution is imbalanced.
 e. ROC-AUC Score:
-   - The area under the Receiver Operating Characteristic curve, measuring the ability to distinguish between classes.
+   - The area under the Receiver Operating Characteristic curve measures the ability to distinguish between classes.
   
      
 7.   Model Deployment  
--using flask
--Monitoring and Maintenance: after implementing and monitoring to track model performance over time and retrain the model periodically with new data to maintain accuracy.
+-using streamlit
+-Monitoring and Maintenance: after implementing and monitoring, track model performance over time and periodically retrain the model with new data to maintain accuracy.
 
 
